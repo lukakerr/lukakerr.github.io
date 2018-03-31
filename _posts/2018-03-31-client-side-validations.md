@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Client Side Validations"
-date:   2018-04-01 10:00:00 +1100
+date:   2018-03-31 15:00:00 +1100
 permalink: rails/client-side-validations
 category: rails
 ---
@@ -9,7 +9,7 @@ category: rails
 # Client Side Validations
 
 <small style="color: #777; top: -10px; position: relative">
-  Written by <a href="https://github.com/lukakerr">Luka Kerr</a> on April 1, 2018
+  Written by <a href="https://github.com/lukakerr">Luka Kerr</a> on March 31, 2018
 </small>
 
 Every Rails application should have validations put in place inside a model whenever dealing with forms. For example, when validating the exact length of a field you could use something like this:
