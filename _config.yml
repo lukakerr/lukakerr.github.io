@@ -16,10 +16,14 @@
 title: lukakerr.github.io
 description: >- # this means to ignore newlines until "baseurl:"
   Luka Kerr's programming related blog.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://lukakerr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  lukakerr
 repository: lukakerr/lukakerr.github.io
+
+social:
+  links:
+    - https://github.com/lukakerr
 
 # Build settings
 markdown: kramdown
