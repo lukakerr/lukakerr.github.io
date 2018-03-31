@@ -4,6 +4,10 @@ title:  "Newrelic Cronjob Monitoring"
 date:   2018-03-31 10:42:55 +1100
 permalink: newrelic/newrelic-cronjob-monitoring
 category: newrelic
+tags: 
+  - newrelic
+  - cronjob
+color: EDEDED
 comments: true
 ---
 

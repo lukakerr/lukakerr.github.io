@@ -4,6 +4,10 @@ title:  "Client Side Validations"
 date:   2018-03-31 15:00:00 +1100
 permalink: rails/client-side-validations
 category: rails
+tags: 
+  - rails
+  - gem
+color: 5F221D
 comments: true
 ---
 

@@ -5,31 +5,148 @@
 @import "minima/syntax-highlighting";
 
 body, html {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  max-width: calc(800px - (50px * 2));
+  margin: 0 auto;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 p img {
-  margin: 0 auto;
+  margin: 10px auto;
   display: block;
 }
 
-.site-header {
-  border-top: 2px solid #424242;
+// Github username
+.username {
+  position: relative;
+  top: -1px;
 }
 
+// Language circle
+.language-circle {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  top: 2px;
+  margin: 0 6px 0 0;
+  border-radius: 50%;
+  filter: saturate(1.45);
+}
+
+// Post topics
+.topics {
+  display: inline-block;
+  text-align: left;
+  position: relative;
+
+  span {
+    background: #f1f1f1;
+    padding: 2px 5px 3px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+    text-transform: lowercase;
+
+    &:first-child {
+      margin-right: 2px;
+    }
+
+    &:not(:first-child) {
+      margin: 0 2px;
+    }
+  }
+}
+
+.wrapper {
+  max-width: 800px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+// Navbar
+.site-header {
+  border-top: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+// Navbar title
+.site-title {
+  font-weight: bold;
+  color: #555 !important;
+}
+
+// Post link
+.post-link {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+// Navbar pages
+.page-link {
+  font-weight: bold;
+  color: #555 !important;
+}
+
+// Mobile burger menu
+.site-nav {
+  top: 19px;
+}
+
+// Markdown page content
+.page-content {
+  .markdown-link {
+    float: left;
+    display: none;
+    position: relative;
+    margin-left: -24px;
+
+    &:hover {
+      display: inline-block;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-left: -20px;
+    padding-left: 20px;
+
+    &:hover {
+      + .markdown-link  {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+// Disqus
 #disqus_thread {
-  max-width: calc(800px - (30px * 2));
   margin: 20px auto 100px auto;
   position: relative;
   padding: 0 15px;
+
+  &:after {
+    content: "";
+    display: block;
+    height: 55px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #FDFDFD;
+  }
 }
 
-#disqus_thread:after {
-  content: "";
-  display: block;
-  height: 55px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  background: #FDFDFD;
+// Markdown
+.wrapper {
+  h1, h3 {
+    font-weight: 700;
+  }
+  strong {
+    font-weight: 600;
+  }
 }

@@ -19,6 +19,12 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
+          <span class="language-circle" style="background: #{{ post.color }};"></span>
+          <div class="topics">
+            {%- for tag in post.tags -%}
+            <span>{{ tag }}</span>
+            {%- endfor -%}
+          </div>
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
