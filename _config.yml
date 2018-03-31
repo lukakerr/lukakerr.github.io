@@ -33,7 +33,7 @@ timezone: Australia/Sydney
 minima:
   date_format: "%b %-d, %Y"
 
-google_analytics: UA-82823876-6
+google_analytics: UA-82823876-8
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
