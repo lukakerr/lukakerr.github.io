@@ -14,6 +14,10 @@ comments: true
 
 # NSWindow Style Showcase
 
+<small style="color: #777; top: -10px; position: relative">
+  Written by <a href="https://github.com/lukakerr">Luka Kerr</a> on March 31, 2018
+</small>
+
 A showcase of many of the different styles of windows possible with NSWindow on MacOS. In some examples, NSToolbar, and NSVisualEffectView are used. No private API's are used.
 
 All code is assumed to be put in a window controller such as `WindowController.swift`, in the `windowDidLoad` function. You should just be able to place each block inside that function to get the exact same result.
