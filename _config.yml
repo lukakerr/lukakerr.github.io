@@ -27,6 +27,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
+timezone: Australia/Sydney
+
 # Theme settings
 minima:
   date_format: "%b %-d, %Y"
