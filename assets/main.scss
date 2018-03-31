@@ -16,3 +16,20 @@ p img {
 .site-header {
   border-top: 2px solid #424242;
 }
+
+#disqus_thread {
+  max-width: calc(800px - (30px * 2));
+  margin: 100px auto;
+  position: relative;
+  padding: 0 15px;
+}
+
+#disqus_thread:after {
+  content: "";
+  display: block;
+  height: 55px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: #FDFDFD;
+}

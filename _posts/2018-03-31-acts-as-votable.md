@@ -4,6 +4,7 @@ title:  "Acts As Votable"
 date:   2018-03-31 14:10:00 +1100
 permalink: rails/acts-as-votable
 category: rails
+comments: true
 ---
 
 # Acts As Votable
