@@ -13,8 +13,19 @@ body, html {
 }
 
 p img {
-  margin: 10px auto;
+  margin: 20px auto;
   display: block;
+  max-width: 80%;
+}
+
+blockquote {
+  font-style: normal;
+  letter-spacing: normal;
+  font-size: 14px;
+
+  code {
+    font-size: 14px !important;
+  }
 }
 
 // Github username
@@ -115,6 +126,7 @@ p img {
     width: 100%;
     margin-left: -20px;
     padding-left: 20px;
+    font-weight: 700;
 
     &:hover {
       + .markdown-link  {
