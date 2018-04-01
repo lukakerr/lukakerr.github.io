@@ -90,6 +90,15 @@ blockquote {
   color: #555 !important;
 }
 
+// Page header
+.post-header {
+  margin-bottom: 15px;
+
+  .post-title {
+    font-size: 30px;
+  }
+}
+
 // Post link
 .post-link {
   font-weight: bold;
