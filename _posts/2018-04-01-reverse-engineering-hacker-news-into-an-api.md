@@ -15,6 +15,10 @@ comments: true
 
 # 'Reverse Engineering' Hacker News Into An API
 
+<small style="color: #777; top: -10px; position: relative">
+  Written by <a href="https://github.com/lukakerr">Luka Kerr</a> on April 1, 2018
+</small>
+
 While building [hackd](https://github.com/lukakerr/hackd) I faced a problem - the official Hacker News API doesn't allow for interaction, such as upvoting, posting and commenting. I wanted hackd to be a full featured Hacker News client, so this wasn't going to cut it.
 
 Since these actions are most likely just POST request to the Hacker News server, I decided to inspect the network requests when performing different actions - logging in, upvoting, logging out. It wasn't too hard to figure out how the requests were made and what information was needed and being passed around.
