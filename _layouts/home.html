@@ -9,9 +9,21 @@ layout: default
 
   {{ content }}
 
-  {%- if site.posts.size > 0 -%}
+  {% assign posts = site.posts %}
+
+  {% if site.paginate %}
+    {% if paginator.previous_page %}
+      {% assign posts = paginator.posts %}
+    {% else %}
+      {% assign posts = site.posts %}
+      {% assign post_limit = site.paginate %}
+      {% assign first_page = true %}
+    {% endif %}
+  {% endif %}
+
+  {%- if posts.size > 0 -%}
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for post in posts limit:site.paginate -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -32,7 +44,30 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-
   {%- endif -%}
+
+  {% if site.paginate and first_page != true %}
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">&#11139;&nbsp; Previous</a>
+      {% endif %}
+
+      <span>&nbsp;&nbsp;</span>
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next &nbsp;&#11137;</a>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <!-- Small hack to show pagiantion on first page -->
+  {% assign count = site.posts | size %}
+  {% if count > site.paginate %}
+    {% if post_limit %}
+      <div class="pagination">
+        <a href="/page-2" class="next">Next &nbsp;&#11137;</a>
+      </div>
+    {% endif %}
+  {% endif %}
 
 </div>

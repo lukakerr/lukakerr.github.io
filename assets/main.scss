@@ -28,6 +28,11 @@ blockquote {
   }
 }
 
+// Pagination links
+.previous:hover, .next:hover {
+  text-decoration: none;
+}
+
 // Github username
 .username {
   position: relative;
