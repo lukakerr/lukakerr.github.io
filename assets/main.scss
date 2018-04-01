@@ -5,7 +5,8 @@
 @import "minima/syntax-highlighting";
 
 body, html {
-  font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-family: "Zapf Dingbats" !important; 
   max-width: calc(850px - (50px * 2));
   margin: 0 auto;
   padding-left: 3%;
@@ -31,6 +32,18 @@ blockquote {
 // Pagination links
 .previous:hover, .next:hover {
   text-decoration: none;
+}
+
+.next:after {
+  content: '\232a';
+  position: relative;
+  top: 1px;
+}
+
+.previous:before {
+  content: '\2329';
+  position: relative;
+  top: 1px;
 }
 
 // Github username

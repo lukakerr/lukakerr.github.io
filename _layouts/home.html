@@ -49,13 +49,13 @@ layout: default
   {% if site.paginate and first_page != true %}
     <div class="pagination">
       {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="previous">&#11139;&nbsp; Previous</a>
+        <a href="{{ paginator.previous_page_path }}" class="previous">&nbsp; Previous</a>
       {% endif %}
 
       <span>&nbsp;&nbsp;</span>
 
       {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">Next &nbsp;&#11137;</a>
+        <a href="{{ paginator.next_page_path }}" class="next">Next &nbsp;</a>
       {% endif %}
     </div>
   {% endif %}
@@ -65,7 +65,7 @@ layout: default
   {% if count > site.paginate %}
     {% if post_limit %}
       <div class="pagination">
-        <a href="/page-2" class="next">Next &nbsp;&#11137;</a>
+        <a href="/page-2" class="next">Next &nbsp;</a>
       </div>
     {% endif %}
   {% endif %}
