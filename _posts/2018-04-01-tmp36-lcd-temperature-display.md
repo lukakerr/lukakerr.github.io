@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "LCD Temperature Display With TMP36"
+title:  "TMP36 LCD Temperature Display"
 date:   2018-04-01 10:30:00 +1100
-permalink: arduino/lcd-temperature-display-with-tmp36
+permalink: arduino/tmp36-lcd-temperature-display
 category: arduino
 tags: 
   - arduino
@@ -11,7 +11,7 @@ color: BD79D1
 comments: true
 ---
 
-# LCD Temperature Display With TMP36
+# TMP36 LCD Temperature Display
 
 <small style="color: #777; top: -10px; position: relative">
   Written by <a href="https://github.com/lukakerr">Luka Kerr</a> on April 1, 2018
