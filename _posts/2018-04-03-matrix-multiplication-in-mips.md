@@ -13,6 +13,10 @@ comments: true
 
 # Matrix Multiplication In MIPS
 
+<small style="color: #777; top: -10px; position: relative">
+  Written by <a href="https://github.com/lukakerr">Luka Kerr</a> on April 2, 2018
+</small>
+
 I've been learning MIPS assembly for about 2 weeks now at uni and wanted to share how i've implemented a simple matrix multiplication function in MIPS.
 
 This is the function in C that will be implemented. It takes in 6 parameters:
