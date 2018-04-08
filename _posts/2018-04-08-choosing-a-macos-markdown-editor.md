@@ -25,7 +25,6 @@ There are dozens of markdown editing apps out there for MacOS, each with differe
 
 I've been looking for the perfect one for a while now, but still haven't found it. My criteria when searching has been:
 
-- Must support [CommonMark](http://commonmark.org)
 - Must support [LaTeX](https://www.latex-project.org) (or a math subset of LaTeX)
 - Must support code blocks and syntax highlighting
 - Must be able to export to PDF
@@ -38,11 +37,11 @@ I've been looking for the perfect one for a while now, but still haven't found i
 
 Each point starting with "Must", weighs 1 point, each point starting with "Preferably" weighs half a point.
 
-Taking this crieteria, I set out to find the perfect markdown editor (if only it existed). Below are my findings, the pros/cons of each and how well the app matched my criteria (out of 7).
+Taking this crieteria, I set out to find the perfect markdown editor (if only it existed). Below are my findings, the pros/cons of each and how well the app matched my criteria (out of 6).
 
 ## Typora
 
-> 6.5/7
+> 5.5/6
 
 Typora is a super minimal markdown editor and is still in Beta at time of writing. The only downside is that there is no split view rendering support. Occassionally when editing inline LaTeX, the cursor dissapears or jumps around.
 
@@ -54,7 +53,7 @@ Typora is a super minimal markdown editor and is still in Beta at time of writin
 
 ## MacDown
 
-> 6/7
+> 5/6
 
 MacDown is the classic modern markdown editor for MacOS. It's open source and supports many cool features such as autocomplete and plugins.
 
@@ -66,7 +65,7 @@ MacDown is the classic modern markdown editor for MacOS. It's open source and su
 
 ## LightPaper
 
-> 6/7
+> 5/6
 
 LightPaper is another paid app with heaps of features including support for Jekyll front matter, MathJax support and a menubar app for quick note taking.
 
@@ -79,7 +78,7 @@ LightPaper is another paid app with heaps of features including support for Jeky
 
 ## iA Writer
 
-> 5/7
+> 4/6
 
 iA Writer is a paid app and has many great features such as focus mode and iCloud sync. It is not as customizable, but serves as a solid markdown editor.
 
@@ -91,7 +90,7 @@ iA Writer is a paid app and has many great features such as focus mode and iClou
 
 ## Ulysses
 
-> 4/7
+> 3/6
 
 Ulysses is a native MacOS app, with iOS support too. It won the 2016 Apple Award for Design. The main disadvantage to Ulysses is that it doesn't support code blocks or syntax highlighting.
 
