@@ -13,8 +13,6 @@ I enjoy programming with:
 * JavaScript
 * Ruby
 
-I have experience working as a software engineering intern, see my [CV]({{ "/assets/static/cv.pdf" | absolute_url }})
-for more.
-
+I have experience working as a software engineering intern.
 
 I also take surf photos. For more of my surf photography work, visit [www.lukakerrphoto.com](https://www.lukakerrphoto.com).
