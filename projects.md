@@ -8,10 +8,6 @@ permalink: /projects
 
 > A modern Hacker News iOS client
 
-#### [regxr](https://github.com/lukakerr/regxr)
-
-> A minimal MacOS desktop app for regex pattern matches
-
 #### [markr](https://github.com/lukakerr/markr)
 
 > A lightweight markdown editor for MacOS
