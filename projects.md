@@ -8,13 +8,17 @@ permalink: /projects
 
 > A modern Hacker News iOS client
 
-#### [markr](https://github.com/lukakerr/markr)
+#### [twig](https://github.com/lukakerr/twig)
 
-> A lightweight markdown editor for MacOS
+> A modern, lightweight markdown editor for macOS
 
 #### [plyr](https://github.com/lukakerr/plyr)
 
-> A hyperminimal MacOS desktop music player
+> A hyperminimal macOS desktop music player
+
+#### [crypticker](https://github.com/lukakerr/crypticker-cli)
+
+> A simple command line program to get real time cryptocurrency data
 
 #### [bitstream](https://github.com/lukakerr/BitStream)
 
