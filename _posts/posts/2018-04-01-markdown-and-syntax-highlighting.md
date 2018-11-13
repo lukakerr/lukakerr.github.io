@@ -3,8 +3,8 @@ layout: default
 title:  "Markdown & Syntax Highlighting"
 date:   2018-04-01 12:25:00 +1100
 permalink: rails/markdown-and-syntax-highlighting
-category: rails
-tags: 
+category: post
+tags:
   - rails
   - gem
 color: 5F221D
@@ -56,7 +56,7 @@ For the `markdown()` function, we use a hash to add markdown extensions such as 
 Next we need to create a file inside `/assets/stylesheets/` called `pygments.css.erb` and paste just the following line into that file:
 
 ```erb
-<%= Pygments.css(style: "monokai") %> 
+<%= Pygments.css(style: "monokai") %>
 ```
 
 This example uses the `monokai` syntax highlighting style, but there are [many more options to choose from](http://jwarby.github.io/jekyll-pygments-themes/languages/javascript.html).

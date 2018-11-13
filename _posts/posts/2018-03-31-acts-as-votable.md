@@ -3,8 +3,8 @@ layout: default
 title:  "Acts As Votable"
 date:   2018-03-31 14:10:00 +1100
 permalink: rails/acts-as-votable
-category: rails
-tags: 
+category: post
+tags:
   - rails
   - gem
 color: 5F221D
@@ -96,10 +96,10 @@ def self.up
   add_index  :images, :cached_weighted_score
   add_index  :images, :cached_weighted_total
   add_index  :images, :cached_weighted_average
-  
+
   Image.find_each(&:update_cached_votes)
   end
-  
+
 def self.down
   remove_column :images, :cached_votes_total
   remove_column :images, :cached_votes_score

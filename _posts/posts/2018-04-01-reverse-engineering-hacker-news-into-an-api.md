@@ -3,8 +3,8 @@ layout: default
 title:  "'Reverse Engineering' Hacker News Into An API"
 date:   2018-04-01 17:15:00 +1100
 permalink: javascript/reverse-engineering-hacker-news-into-an-api
-category: javascript
-tags: 
+category: post
+tags:
   - javascript
   - react native
   - hacker news
@@ -23,7 +23,7 @@ While building [hackd](https://github.com/lukakerr/hackd) I faced a problem - th
 
 Since these actions are most likely just POST request to the Hacker News server, I decided to inspect the network requests when performing different actions - logging in, upvoting, logging out. It wasn't too hard to figure out how the requests were made and what information was needed and being passed around.
 
-Take logging in as an example. The Hacker News login page is quite simple, you enter your username and password and click 'login'. Looking at the network request that take place, we can see that three parameters are needed: `goto`, `acct` and `pw`. 
+Take logging in as an example. The Hacker News login page is quite simple, you enter your username and password and click 'login'. Looking at the network request that take place, we can see that three parameters are needed: `goto`, `acct` and `pw`.
 
 ![1]({{ "/assets/img/javascript/login.jpg" | absolute_url }})
 
@@ -42,7 +42,7 @@ const login = (username, password) => {
     'Content-Type': 'application/x-www-form-urlencoded',
     'Access-Control-Allow-Origin': '*',
   });
-  
+
   // config.base = https://news.ycombinator.com
   return fetch(`${config.base}/login`, {
     method: 'POST',
@@ -118,4 +118,4 @@ export {
 
 Again, this method can be repeated for commenting, unvoting and logging out, where the unique URL is needed.
 
-You can find a fully functional implementation for these actions in the [hackd repository](https://github.com/lukakerr/hackd/blob/master/app/helpers/api.js). 
+You can find a fully functional implementation for these actions in the [hackd repository](https://github.com/lukakerr/hackd/blob/master/app/helpers/api.js).

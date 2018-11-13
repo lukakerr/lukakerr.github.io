@@ -3,8 +3,8 @@ layout: default
 title:  "TMP36 LCD Temperature Display"
 date:   2018-04-01 10:30:00 +1100
 permalink: arduino/tmp36-lcd-temperature-display
-category: arduino
-tags: 
+category: post
+tags:
   - arduino
   - fritzing
 color: BD79D1
@@ -33,13 +33,13 @@ Next you need to specify which pins you want to use to display the output. For t
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 ```
 
-Next we declare the analog input pin for the TMP36, for this example we are using pin 1. 
+Next we declare the analog input pin for the TMP36, for this example we are using pin 1.
 
 ```cpp
 int tempPin = 1;
 ```
 
-Next is the setup function. This returns nothing but sets up the properties of the LCD display including its width in characters, height in characters and the text that is displayed. 
+Next is the setup function. This returns nothing but sets up the properties of the LCD display including its width in characters, height in characters and the text that is displayed.
 
 ```cpp
 void setup() {
@@ -72,7 +72,7 @@ void loop() {
 
 In the end this is what your code should look similar to.
 
-> You will need to modify the `temp` variable's calculation if you want it in fahrenheit. 
+> You will need to modify the `temp` variable's calculation if you want it in fahrenheit.
 
 ```cpp
 // include the library code:

@@ -3,8 +3,8 @@ layout: default
 title:  "Choosing A MacOS Markdown Editor"
 date:   2018-04-08 16:15:00 +1100
 permalink: macos/choosing-a-macos-markdown-editor
-category: macos
-tags: 
+category: post
+tags:
   - macos
   - markdown
 color: 67AFED
@@ -18,7 +18,7 @@ comments: true
 </small>
 
 I've recently been writing a lot of documents in markdown - on this blog, for uni notes and for general writing.
-I find it much easier to write in markdown rather than Microsoft Word, pure LaTeX, plain text or rich text. 
+I find it much easier to write in markdown rather than Microsoft Word, pure LaTeX, plain text or rich text.
 Being able to convert markdown into PDF, HTML and plenty other formats is a huge benefit, not to mention that many websites like Github support it.
 
 There are dozens of markdown editing apps out there for MacOS, each with different features, and pros and cons.

@@ -3,8 +3,8 @@ layout: default
 title:  "Newrelic Cronjob Monitoring"
 date:   2018-03-31 10:42:55 +1100
 permalink: newrelic/newrelic-cronjob-monitoring
-category: newrelic
-tags: 
+category: post
+tags:
   - newrelic
   - cronjob
 color: EDEDED
@@ -24,7 +24,7 @@ To enable cronjob monitoring with Newrelic, two or three files are needed depend
 - `*.js` (or any file where your cronjob logic is located)
   - Used to execute your cronjob logic
   - Throws error which exits the script early to inform of a failure
-- `*.sh` 
+- `*.sh`
   - Used to start the `*.js` script.
   - May involve setting environment variables etc
   - If a failure occurs, an event gets sent to Newrelic
@@ -78,7 +78,7 @@ if [ $EXIT -ne 0 ]; then
   NAME=`basename "$0"`
   END=`date +%s`
   RUNTIME="$((END-START))s"
-  
+
   # Send failure event after cronjob has run
   # Be sure to correct this path when adding the send_event.sh script below
   ../newrelic/send_event.sh $STATUS $NAME $RUNTIME

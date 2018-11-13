@@ -3,19 +3,16 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
 
   {{ content }}
 
-  {% assign posts = site.posts %}
+  {% assign posts = site.categories.post %}
 
   {% if site.paginate %}
     {% if paginator.previous_page %}
       {% assign posts = paginator.posts %}
     {% else %}
-      {% assign posts = site.posts %}
+      {% assign posts = site.categories.post %}
       {% assign post_limit = site.paginate %}
       {% assign first_page = true %}
     {% endif %}

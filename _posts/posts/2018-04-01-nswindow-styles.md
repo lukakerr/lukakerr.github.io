@@ -3,8 +3,8 @@ layout: default
 title:  "NSWindow Styles"
 date:   2018-03-31 20:25:00 +1100
 permalink: swift/nswindow-styles
-category: swift
-tags: 
+category: post
+tags:
   - swift
   - nswindow
   - showcase

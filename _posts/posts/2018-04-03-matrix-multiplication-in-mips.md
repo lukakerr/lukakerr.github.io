@@ -3,8 +3,8 @@ layout: default
 title:  "Matrix Multiplication In MIPS"
 date:   2018-04-02 17:25:00 +1100
 permalink: assembly/matrix-multiplication-in-mips
-category: assembly
-tags: 
+category: post
+tags:
   - assembly
   - mips
 color: 6E4C13
@@ -36,7 +36,7 @@ void multiply(int n, int m, int p, int A[n][m], int B[m][p], int C[n][p]) {
       for (int i = 0; i < m; i++) {
         sum += A[r][i] * B[i][c];
       }
-      C[r][c] = sum;    
+      C[r][c] = sum;
     }
 }
 ```
@@ -63,7 +63,7 @@ Next the `multiply` function will be implemented in steps. First the global symb
 multiply:
 ```
 
-This declares the `multiply` symbol as a global symbol that is visible to other files. 
+This declares the `multiply` symbol as a global symbol that is visible to other files.
 
 Next the function prologue can be setup. This modifies the frame pointer and stack pointer, as well as allocating space on the stack for some `$s?` registers, which get deallocated in the function epilogue.
 
@@ -73,7 +73,7 @@ Next the function prologue can be setup. This modifies the frame pointer and sta
 multiply:
   # Register usage:
   # n is $s0, m is $s1, p is $s2,
-  # r is $s3, c is $s4, i is $s5, 
+  # r is $s3, c is $s4, i is $s5,
   # sum is $s6
 
   # Prologue
@@ -90,13 +90,13 @@ multiply:
   addi $sp, $sp, -36
 ```
 
-After this the main logic of `multiply` can be introduced. I've left comments next to most operations that correspond to the C code in the `multiply` function. Since a 2D array is used for storing matrices, we have to do a bit of calculation when accessing a value. 
+After this the main logic of `multiply` can be introduced. I've left comments next to most operations that correspond to the C code in the `multiply` function. Since a 2D array is used for storing matrices, we have to do a bit of calculation when accessing a value.
 
 This can be done using a formula of `(r * x * 4) + (c * 4)` where:
 
 - `r` = row (e.g. `C[r][c]`)
 - `x` = dependent on context:
-  - For A: `x` = number of columns in B (`m`) 
+  - For A: `x` = number of columns in B (`m`)
   - For B: `x` = number of rows in A (`n`)
   - For C: `x` = number of columns in A (`p`), which can be thought of as the number of columns in C
 - `c` = column (e.g. `C[r][c]`)
@@ -126,7 +126,7 @@ mult_store:
   mul  $t3, $s3, $s2        # t3 = r * p
   mul  $t3, $t3, $t0        # t3 = t3 * 4
   mul  $t4, $s4, $t0        # t4 = c * 4
-  add  $t3, $t3, $t4        # t3 = t3 * t4 = (r * p * 4) + (c * 4) 
+  add  $t3, $t3, $t4        # t3 = t3 * t4 = (r * p * 4) + (c * 4)
   sw   $s6, C($t3)          # C[r][c] = sum;
 
   addi $s4, $s4, 1          # c++
@@ -188,7 +188,7 @@ Putting it all together we get:
 multiply:
   # Register usage:
   # n is $s0, m is $s1, p is $s2,
-  # r is $s3, c is $s4, i is $s5, 
+  # r is $s3, c is $s4, i is $s5,
   # sum is $s6
 
   # Prologue
@@ -225,7 +225,7 @@ mult_store:
   mul  $t3, $s3, $s2        # t3 = r * p
   mul  $t3, $t3, $t0        # t3 = t3 * 4
   mul  $t4, $s4, $t0        # t4 = c * 4
-  add  $t3, $t3, $t4        # t3 = t3 * t4 = (r * p * 4) + (c * 4) 
+  add  $t3, $t3, $t4        # t3 = t3 * t4 = (r * p * 4) + (c * 4)
   sw   $s6, C($t3)          # C[r][c] = sum;
 
   addi $s4, $s4, 1          # c++
@@ -259,7 +259,7 @@ mult_loop3:
 mult_end2:
   addi $s3, $s3, 1          # r++
   j    mult_loop
-  
+
 mult_end:
   # Epilogue
   lw   $ra, -4($fp)

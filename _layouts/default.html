@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0-rc/katex.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0-rc/katex.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0-rc/contrib/auto-render.min.js"></script>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
@@ -18,5 +21,18 @@
   </body>
 
   <script src="../assets/js/anchor.js"></script>
+  <script>
+    renderMathInElement(document.body, {delimiters: [
+      {left: "$$", right: "$$", display: true},
+      {left: "$", right: "$", display: false},
+    ]});
 
+    document.querySelectorAll("script[type='math/tex']").forEach(function(el) {
+      el.outerHTML = katex.renderToString(el.textContent.replace(/%.*/g, ''), { displayMode: true });
+    });
+
+    document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el) {
+      el.outerHTML = katex.renderToString(el.textContent.replace(/%.*/g, ''), { displayMode: true });
+    });
+  </script>
 </html>
