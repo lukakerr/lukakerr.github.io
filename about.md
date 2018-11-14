@@ -4,12 +4,12 @@ title: About
 permalink: /about
 ---
 
-I'm Luka, a software engineering student at UNSW Sydney.
+I'm Luka, a software engineering student at [UNSW](https://www.unsw.edu.au) Sydney.
 
 I enjoy programming with:
 
 * Swift
-* JavaScript
+* JavaScript/TypeScript
 * Ruby
 
 I have experience working as a software engineering intern, and am always open to new opportunities.
