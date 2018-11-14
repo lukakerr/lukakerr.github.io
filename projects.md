@@ -6,17 +6,17 @@ permalink: /projects
 
 #### [hackd](https://github.com/lukakerr/hackd)
 
-> A modern Hacker News iOS client
+> A modern Hacker News iOS app
 
 #### [twig](https://github.com/lukakerr/twig)
 
-> A modern, lightweight markdown editor for macOS
+> A featureful markdown editor for macOS
 
 #### [plyr](https://github.com/lukakerr/plyr)
 
 > A hyperminimal macOS desktop music player
 
-#### [crypticker](https://github.com/lukakerr/crypticker-cli)
+#### [crypticker](https://github.com/lukakerr/crypticker)
 
 > A simple command line program to get real time cryptocurrency data
 
@@ -26,7 +26,7 @@ permalink: /projects
 
 #### [rails-ecommerce](https://github.com/lukakerr/rails-ecommerce)
 
-> A reasonably generic ecommerce site
+> An ecommerce site built using Ruby On Rails. Includes users, products, carts, orders, categories, multiple images, custom pages, image banners and more
 
 <br>
 
