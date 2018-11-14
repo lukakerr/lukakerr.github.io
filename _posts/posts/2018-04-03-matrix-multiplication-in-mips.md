@@ -38,6 +38,7 @@ void multiply(int n, int m, int p, int A[n][m], int B[m][p], int C[n][p]) {
       }
       C[r][c] = sum;
     }
+  }
 }
 ```
 
