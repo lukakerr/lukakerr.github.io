@@ -9,9 +9,16 @@ I'm Luka, a software engineering student at [UNSW](https://www.unsw.edu.au) Sydn
 I enjoy programming with:
 
 * Swift
-* JavaScript/TypeScript
 * Ruby
+* Haskell
+* JavaScript/TypeScript
 
-I have experience working as a software engineering intern, and am always open to new opportunities.
+I have experience working as a software engineering intern at:
+
+- [MongoDB](https://www.mongodb.com)
+- [ClickView](https://www.clickview.com.au)
+- [Creative Licence Digital](http://www.creativelicence.com.au)
+
+and am always open to new opportunities.
 
 I also take surf photos. For more of my surf photography work, visit [www.lukakerrphoto.com](https://www.lukakerrphoto.com).

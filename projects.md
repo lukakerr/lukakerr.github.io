@@ -12,6 +12,10 @@ permalink: /projects
 
 > A featureful markdown editor for macOS
 
+#### [Sea](https://github.com/lukakerr/Sea)
+
+> A simple lexer, parser and evaluator for a C like language
+
 #### [plyr](https://github.com/lukakerr/plyr)
 
 > A hyperminimal macOS desktop music player
