@@ -17,7 +17,7 @@ I have experience working as a software engineering intern at:
 
 - [MongoDB](https://www.mongodb.com)
 - [ClickView](https://www.clickview.com.au)
-- [Creative Licence Digital](http://www.creativelicence.com.au)
+- [Creative Licence Digital](https://www.creativelicence.com.au)
 
 and am always open to new opportunities.
 
