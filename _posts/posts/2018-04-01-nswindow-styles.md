@@ -216,7 +216,7 @@ let customToolbar = NSToolbar()
 window?.titleVisibility = .hidden
 window?.styleMask.insert(.fullSizeContentView)
 window?.contentView?.wantsLayer = true
-window?.contentView?.layer?.contents = NSImage(named: NSImage.Name(rawValue: "Background"))
+window?.contentView?.layer?.contents = NSImage(named: NSImage.Name("Background"))
 window?.toolbar = customToolbar
 ```
 
@@ -230,7 +230,7 @@ Same as above with a titlebar instead of a toolbar.
 window?.titleVisibility = .hidden
 window?.styleMask.insert(.fullSizeContentView)
 window?.contentView?.wantsLayer = true
-window?.contentView?.layer?.contents = NSImage(named: NSImage.Name(rawValue: "Background"))
+window?.contentView?.layer?.contents = NSImage(named: NSImage.Name("Background"))
 ```
 
 ### 15. Transparent titlebar without title
@@ -244,5 +244,17 @@ window?.titleVisibility = .hidden
 window?.styleMask.insert(.fullSizeContentView)
 window?.titlebarAppearsTransparent = true
 window?.contentView?.wantsLayer = true
-window?.contentView?.layer?.contents = NSImage(named: NSImage.Name(rawValue: "Background"))
+window?.contentView?.layer?.contents = NSImage(named: NSImage.Name("Background"))
+```
+
+### 16. macOS Mojave dark mode
+
+The macOS Mojave dark mode appearance.
+
+![16]({{ "/assets/img/swift/nswindow-styles/16.png" | absolute_url }})
+
+```swift
+if #available(OSX 10.14, *) {
+  window?.appearance = NSAppearance(named: .darkAqua)
+}
 ```
