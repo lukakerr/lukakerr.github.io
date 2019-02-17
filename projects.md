@@ -12,7 +12,7 @@ permalink: /projects
 
 > A featureful markdown editor for macOS
 
-#### [Sea](https://github.com/lukakerr/Sea)
+#### [sea](https://github.com/lukakerr/sea)
 
 > A simple lexer, parser and evaluator for a C like language
 
@@ -24,13 +24,13 @@ permalink: /projects
 
 > A simple command line program to get real time cryptocurrency data
 
+#### [hkn](https://github.com/lukakerr/hkn)
+
+> A go module for interacting with Hacker News
+
 #### [bitstream](https://github.com/lukakerr/BitStream)
 
 > An Electron app that utilises WebTorrent to stream and download a torrent simultaneously
-
-#### [rails-ecommerce](https://github.com/lukakerr/rails-ecommerce)
-
-> An ecommerce site built using Ruby On Rails. Includes users, products, carts, orders, categories, multiple images, custom pages, image banners and more
 
 <br>
 
