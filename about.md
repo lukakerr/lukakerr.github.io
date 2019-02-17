@@ -8,8 +8,8 @@ I'm Luka, a software engineering student at [UNSW](https://www.unsw.edu.au) Sydn
 
 I enjoy programming with:
 
+* Go
 * Swift
-* Ruby
 * Haskell
 * JavaScript/TypeScript
 
