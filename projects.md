@@ -8,9 +8,9 @@ permalink: /projects
 
 > A modern Hacker News iOS app
 
-#### [twig](https://github.com/lukakerr/twig)
+#### [pine](https://github.com/lukakerr/pine)
 
-> A featureful markdown editor for macOS
+> A featureful, native markdown editor for macOS
 
 #### [sea](https://github.com/lukakerr/sea)
 
