@@ -1,3 +1,9 @@
 <script>
-  window.location.href = "https://github.com/lukakerr";
+  ga('send', {
+    hitType: 'pageview',
+    page: location.pathname,
+    hitCallback: function() {
+      window.location.href = "https://github.com/lukakerr";
+    }
+  });
 </script>
