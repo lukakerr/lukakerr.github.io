@@ -13,8 +13,6 @@ I enjoy programming with:
 * Haskell
 * JavaScript/TypeScript
 
-I also like writing in Markdown and LaTeX. Sometimes both together with [KaTeX](https://katex.org).
-
 I have experience working as a software engineering intern at:
 
 - [MongoDB](https://www.mongodb.com)
