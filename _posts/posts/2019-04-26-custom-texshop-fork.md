@@ -38,7 +38,7 @@ Below is a screenshot of before and after:
 
 > Before
 
-![2]({{ "/assets/img/tex/TexShop-after.png" | absolute_url }})
+![2]({{ "/assets/img/tex/TeXShop-after.png" | absolute_url }})
 
 > After
 
