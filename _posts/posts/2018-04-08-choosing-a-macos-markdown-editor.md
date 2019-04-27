@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Choosing A MacOS Markdown Editor"
+title:  "Choosing A macOS Markdown Editor"
 date:   2018-04-08 16:15:00 +1100
 permalink: macos/choosing-a-macos-markdown-editor
 category: post
@@ -11,7 +11,7 @@ color: 67AFED
 comments: true
 ---
 
-# Choosing A MacOS Markdown Editor
+# Choosing A macOS Markdown Editor
 
 <small style="color: #777; top: -10px; position: relative">
   Written by <a href="https://github.com/lukakerr">Luka Kerr</a> on April 8, 2018
@@ -21,7 +21,7 @@ I've recently been writing a lot of documents in markdown - on this blog, for un
 I find it much easier to write in markdown rather than Microsoft Word, pure LaTeX, plain text or rich text.
 Being able to convert markdown into PDF, HTML and plenty other formats is a huge benefit, not to mention that many websites like Github support it.
 
-There are dozens of markdown editing apps out there for MacOS, each with different features, and pros and cons.
+There are dozens of markdown editing apps out there for macOS, each with different features, and pros and cons.
 
 I've been looking for the perfect one for a while now, but still haven't found it. My criteria when searching has been:
 
@@ -55,7 +55,7 @@ Typora is a super minimal markdown editor and is still in Beta at time of writin
 
 > 5/6
 
-MacDown is the classic modern markdown editor for MacOS. It's open source and supports many cool features such as autocomplete and plugins.
+MacDown is the classic modern markdown editor for macOS. It's open source and supports many cool features such as autocomplete and plugins.
 
 | Pros          | Cons
 | ------------- | ------------- |
@@ -92,7 +92,7 @@ iA Writer is a paid app and has many great features such as focus mode and iClou
 
 > 3/6
 
-Ulysses is a native MacOS app, with iOS support too. It won the 2016 Apple Award for Design. The main disadvantage to Ulysses is that it doesn't support code blocks or syntax highlighting.
+Ulysses is a native macOS app, with iOS support too. It won the 2016 Apple Award for Design. The main disadvantage to Ulysses is that it doesn't support code blocks or syntax highlighting.
 
 | Pros          | Cons
 | ------------- | ------------- |
