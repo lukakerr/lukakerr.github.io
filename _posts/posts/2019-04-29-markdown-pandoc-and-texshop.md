@@ -13,11 +13,11 @@ color: 3D6117
 comments: true
 ---
 
+## Markdown, Pandoc & TeXShop
+
 <small style="color: #777; top: -10px; position: relative">
   Written by <a href="https://github.com/lukakerr">Luka Kerr</a> on April 29, 2019
 </small>
-
-## Markdown, Pandoc & TeXShop
 
 I write a lot in Markdown and use Pandoc to convert from Markdown -> `.pdf`.
 

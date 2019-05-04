@@ -13,11 +13,11 @@ color: 3D6117
 comments: true
 ---
 
+## Maple Notes
+
 <small style="color: #777; top: -10px; position: relative">
   Written by <a href="https://github.com/lukakerr">Luka Kerr</a> on April 26, 2019
 </small>
-
-## Maple Notes
 
 Before entering commands, load the relevant packages to ensure all needed functions are available:
 

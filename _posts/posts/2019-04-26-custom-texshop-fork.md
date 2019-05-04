@@ -12,11 +12,11 @@ color: 3D6117
 comments: true
 ---
 
+## Custom TeXShop Fork
+
 <small style="color: #777; top: -10px; position: relative">
   Written by <a href="https://github.com/lukakerr">Luka Kerr</a> on April 26, 2019
 </small>
-
-## Custom TeXShop Fork
 
 A couple of weeks ago I [forked TeXShop](https://github.com/lukakerr/TeXShop) and made a few minor modifications
 to make the app look and feel more modern.

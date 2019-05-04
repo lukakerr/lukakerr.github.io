@@ -11,11 +11,11 @@ color: 555555
 comments: true
 ---
 
+## Binary Search Tree
+
 <small style="color: #777; top: -10px; position: relative">
   Written by <a href="https://github.com/lukakerr">Luka Kerr</a> on August 12, 2018
 </small>
-
-## Binary Search Tree
 
 The code for a [binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree), written while at UNSW.
 
