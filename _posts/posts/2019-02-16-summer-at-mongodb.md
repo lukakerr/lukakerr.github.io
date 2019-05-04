@@ -65,8 +65,7 @@ If you're not familiar with what a GeoJSON Point is, it's essentially just an ob
 }
 ```
 
-As you can see in the image below, whenever a user selects a collection from their database to use as a data source for their chart,
-schema of inferred types for each field is generated.
+As you can see in the image below, whenever a user selects a collection from their database to use as a data source for their chart, a schema of inferred types for each field is generated.
 
 Since I was working with GeoJSON Points, I needed to include this custom semantic type in the schema generation stage.
 
@@ -100,15 +99,16 @@ The reason behind this is that latitude and longitude values are very precise,
 and without knowing metadata such as the map's zoom level, [Stitch](https://www.mongodb.com/cloud/stitch) (our serverless backend) would have
 no knowledge of which points overlapped.
 
-To solve this, I forked the [heatmap layer library](https://github.com/mongodb-js/react-leaflet-heatmap-layer) used and
-implemented all the aggregations supported (sum, mean, standard deviation etc.) as streaming functions client side.
+To solve this, I forked the [heatmap layer library](https://github.com/mongodb-js/react-leaflet-heatmap-layer) used, 
+and implemented all the aggregations supported (sum, mean, standard deviation etc.) as *streaming* functions client 
+side. I also added \~750 lines of tests, up from 0.
 
 #### Choropleth
 
 The choropleth chart was the least familiar chart amongst other MongoDB engineers, with many having not heard of it before,
 but still being able to recognize it when shown an example.
 
-This chart was slightly different from the other two in the fact that rather than using latitude and longitude, specific regions were used. For example the United States or world countries.
+This chart was slightly different from the other two due to the fact that rather than using latitude and longitude, specific regions were used. For example the United States or world countries.
 
 #### Other Features
 
@@ -144,6 +144,9 @@ master
       CHARTS-2012-fix-geojson-point-detection
       ...
 ```
+
+On my last day, the `epic/geospatial` branch was finally merged into `master` as shown in the pull request
+image above.
 
 Out of my (at time of writing) 3 internships, I would say that MongoDB has been the most fun and enjoyable one,
 and I can't wait to apply again next year.
