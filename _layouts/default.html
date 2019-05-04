@@ -1,38 +1,36 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0-rc/katex.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0-rc/katex.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0-rc/contrib/auto-render.min.js"></script>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0-rc/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0-rc/katex.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0-rc/contrib/auto-render.min.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="{{ "assets/img/favicon.ico" | prepend: site.baseurl }}" >
   {%- include head.html -%}
+</head>
+<body>
+  {%- include header.html -%}
 
-  <body>
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
 
-    {%- include header.html -%}
+  {%- include footer.html -%}
+</body>
+<script src="../assets/js/anchor.js"></script>
+<script>
+  renderMathInElement(document.body, {delimiters: [
+    {left: "$$", right: "$$", display: true},
+    {left: "$", right: "$", display: false},
+  ]});
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+  document.querySelectorAll("script[type='math/tex']").forEach(function(el) {
+    el.outerHTML = katex.renderToString(el.textContent.replace(/%.*/g, ''), { displayMode: true });
+  });
 
-    {%- include footer.html -%}
-
-  </body>
-
-  <script src="../assets/js/anchor.js"></script>
-  <script>
-    renderMathInElement(document.body, {delimiters: [
-      {left: "$$", right: "$$", display: true},
-      {left: "$", right: "$", display: false},
-    ]});
-
-    document.querySelectorAll("script[type='math/tex']").forEach(function(el) {
-      el.outerHTML = katex.renderToString(el.textContent.replace(/%.*/g, ''), { displayMode: true });
-    });
-
-    document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el) {
-      el.outerHTML = katex.renderToString(el.textContent.replace(/%.*/g, ''), { displayMode: true });
-    });
-  </script>
+  document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el) {
+    el.outerHTML = katex.renderToString(el.textContent.replace(/%.*/g, ''), { displayMode: true });
+  });
+</script>
 </html>

@@ -229,8 +229,6 @@ GEM
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
-    sskatex (0.9.39)
-      execjs (~> 2.7)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
@@ -247,8 +245,8 @@ DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.6)
   jekyll-paginate
+  jekyll-seo-tag
   minima (~> 2.0)
-  sskatex
 
 BUNDLED WITH
    1.16.2

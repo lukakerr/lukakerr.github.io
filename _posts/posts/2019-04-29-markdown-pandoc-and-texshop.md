@@ -23,26 +23,27 @@ I write a lot in Markdown and use Pandoc to convert from Markdown -> `.pdf`.
 
 Following the steps below, we can add a Markdown engine to TeXShop:
 
-1. Install [Pandoc](http://pandoc.org) if you haven't already
-2. Change directories into the TeXShop engines directory
+- Install [Pandoc](http://pandoc.org) if you haven't already
+
+- Change directories into the TeXShop engines directory
 
 ```bash
 cd ~/Library/TeXShop/Engines
 ```
 
-3. Create a `Markdown.engine` file
+- Create a `Markdown.engine` file
 
 ```
 touch Markdown.engine
 ```
 
-4. Set its permissions
+- Set its permissions
 
 ```
 chmod +x Markdown.engine
 ```
 
-5. Write the engine by adding the following to `Markdown.engine`
+- Write the engine by adding the following to `Markdown.engine`
 
 ```bash
 #!/bin/bash
