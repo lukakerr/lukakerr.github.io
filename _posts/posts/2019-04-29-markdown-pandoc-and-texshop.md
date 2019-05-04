@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Markdown, Pandoc and TeXShop"
-date:   2019-04-26 10:30:00 +1100
+date:   2019-04-29 10:30:00 +1100
 permalink: tex/markdown-pandoc-and-texshop
 category: post
 tags:
