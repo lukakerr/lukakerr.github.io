@@ -4,13 +4,13 @@ title: Projects
 permalink: /projects
 ---
 
+#### [pine](https://github.com/lukakerr/pine)
+
+> A native markdown editor for macOS
+
 #### [hackd](https://github.com/lukakerr/hackd)
 
 > A modern Hacker News iOS app
-
-#### [pine](https://github.com/lukakerr/pine)
-
-> A featureful, native markdown editor for macOS
 
 #### [sea](https://github.com/lukakerr/sea)
 
@@ -19,6 +19,10 @@ permalink: /projects
 #### [plyr](https://github.com/lukakerr/plyr)
 
 > A hyperminimal macOS desktop music player
+
+#### [openquickly](https://github.com/lukakerr/OpenQuickly)
+
+> A custom 'open quickly' window that imitates macOS' Spotlight
 
 #### [crypticker](https://github.com/lukakerr/crypticker)
 
