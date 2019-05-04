@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Markdown, Pandoc and TeXShop"
+title:  "Markdown, Pandoc & TeXShop"
 date:   2019-04-29 10:30:00 +1100
 permalink: tex/markdown-pandoc-and-texshop
 category: post
@@ -17,7 +17,7 @@ comments: true
   Written by <a href="https://github.com/lukakerr">Luka Kerr</a> on April 29, 2019
 </small>
 
-## Markdown, Pandoc and TeXShop
+## Markdown, Pandoc & TeXShop
 
 I write a lot in Markdown and use Pandoc to convert from Markdown -> `.pdf`.
 
