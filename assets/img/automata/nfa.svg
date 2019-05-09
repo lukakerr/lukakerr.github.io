@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 1 -->
+<svg x="0" y="0" width="407" height="192" viewBox="0 0 407 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+
+<style type="text/css"><![CDATA[
+text { white-space: pre; }
+path, image { pointer-events: none; }
+
+.s1_1{
+font-size: 15.22px;
+font-family: CMMI10_7;
+fill: #000000;
+}
+.s2_1{
+font-size: 10.65px;
+font-family: CMR7_8;
+fill: #000000;
+}
+.s3_1{
+font-size: 15.22px;
+font-family: CMR10_9;
+fill: #000000;
+}
+.s4_1{
+font-size: 15.22px;
+font-family: CMSY10_a;
+fill: #000000;
+}
+
+.g0_1{
+fill: none;
+stroke: #000000;
+stroke-width: 0.6088194;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+}
+.g1_1{
+fill: none;
+stroke: #000000;
+stroke-width: 0.48704025;
+stroke-linecap: round;
+stroke-linejoin: round;
+}
+.g2_1{
+fill: none;
+stroke: #000000;
+stroke-width: 2.130914;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+}
+.g3_1{
+fill: none;
+stroke: #FFFFFF;
+stroke-width: 0.9132446;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+}
+.g4_1{
+fill: none;
+stroke: #000000;
+stroke-width: 0.47136733;
+stroke-linecap: round;
+stroke-linejoin: round;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,192
+L407,192
+L407,0 Z " 
+fill="#FFFFFF" 
+fill-opacity="0"
+stroke="none" />
+<path d="M99.9,33.6c0,-10.5,-8.5,-19,-19,-19c-10.6,0,-19.1,8.5,-19.1,19c0,10.5,8.5,19.1,19.1,19.1c10.5,0,19,-8.6,19,-19.1Z" class="g0_1" />
+<text x="74" y="35" class="s1_1">q</text>
+<text x="80" y="37" class="s2_1">0</text>
+<path d="M41.9,33.6H60.1" class="g0_1" />
+<path d="M58.2,31.2c.2,.9,1.9,2.3,2.3,2.4c-.4,.2,-2.1,1.6,-2.3,2.5" class="g1_1" />
+<text x="5" y="38" class="s3_1">start</text>
+<path d="M210.5,33.6C210.5,15.2,195.5,.3,177.1,.3c-18.4,0,-33.3,14.9,-33.3,33.3c0,18.5,14.9,33.4,33.3,33.4c18.4,0,33.4,-14.9,33.4,-33.4Z" class="g0_1" />
+<text x="151" y="37" class="s4_1">{</text>
+<text x="158" y="37" class="s3_1">1</text>
+<text x="166" y="37" class="s1_1">,</text>
+<text x="173" y="37" class="s3_1">2</text>
+<text x="180" y="37" class="s1_1">,</text>
+<text x="187" y="37" class="s3_1">4</text>
+<text x="195" y="37" class="s4_1">}</text>
+<path d="M308.2,33.6C308.2,18.9,296.3,6.9,281.5,6.9c-14.7,0,-26.7,12,-26.7,26.7c0,14.8,12,26.7,26.7,26.7c14.8,0,26.7,-11.9,26.7,-26.7Z" class="g2_1" />
+<path d="M308.2,33.6C308.2,18.9,296.3,6.9,281.5,6.9c-14.7,0,-26.7,12,-26.7,26.7c0,14.8,12,26.7,26.7,26.7c14.8,0,26.7,-11.9,26.7,-26.7Z" class="g3_1" />
+<text x="262" y="37" class="s4_1">{</text>
+<text x="270" y="37" class="s3_1">3</text>
+<text x="278" y="37" class="s1_1">,</text>
+<text x="284" y="37" class="s3_1">9</text>
+<text x="292" y="37" class="s4_1">}</text>
+<path d="M217.1,151.3c0,-22.1,-17.9,-39.9,-40,-39.9c-22,0,-39.9,17.8,-39.9,39.9c0,22,17.9,39.9,39.9,39.9c22.1,0,40,-17.9,40,-39.9Z" class="g2_1" />
+<path d="M217.1,151.3c0,-22.1,-17.9,-39.9,-40,-39.9c-22,0,-39.9,17.8,-39.9,39.9c0,22,17.9,39.9,39.9,39.9c22.1,0,40,-17.9,40,-39.9Z" class="g3_1" />
+<text x="144" y="155" class="s4_1">{</text>
+<text x="151" y="155" class="s3_1">5</text>
+<text x="159" y="155" class="s1_1">,</text>
+<text x="166" y="155" class="s3_1">6</text>
+<text x="173" y="155" class="s1_1">,</text>
+<text x="180" y="155" class="s3_1">8</text>
+<text x="188" y="155" class="s1_1">,</text>
+<text x="194" y="155" class="s3_1">9</text>
+<text x="202" y="155" class="s4_1">}</text>
+<path d="M341.7,151.3c0,-22.1,-17.8,-39.9,-39.9,-39.9c-22,0,-39.9,17.8,-39.9,39.9c0,22,17.9,39.9,39.9,39.9c22.1,0,39.9,-17.9,39.9,-39.9Z" class="g2_1" />
+<path d="M341.7,151.3c0,-22.1,-17.8,-39.9,-39.9,-39.9c-22,0,-39.9,17.8,-39.9,39.9c0,22,17.9,39.9,39.9,39.9c22.1,0,39.9,-17.9,39.9,-39.9Z" class="g3_1" />
+<text x="268" y="155" class="s4_1">{</text>
+<text x="276" y="155" class="s3_1">6</text>
+<text x="284" y="155" class="s1_1">,</text>
+<text x="290" y="155" class="s3_1">7</text>
+<text x="298" y="155" class="s1_1">,</text>
+<text x="305" y="155" class="s3_1">8</text>
+<text x="312" y="155" class="s1_1">,</text>
+<text x="319" y="155" class="s3_1">9</text>
+<text x="327" y="155" class="s4_1">}</text>
+<path d="M100.2,33.6H142" class="g0_1" />
+<path d="M140.2,31.2c.2,.9,1.8,2.3,2.3,2.4c-.5,.2,-2.1,1.6,-2.3,2.5" class="g1_1" />
+<text x="118" y="28" class="s3_1">a</text>
+<path d="M210.8,33.6h41.8" class="g0_1" />
+<path d="M250.8,31.2c.1,.9,1.8,2.3,2.3,2.4c-.5,.2,-2.2,1.6,-2.3,2.5" class="g1_1" />
+<text x="228" y="28" class="s3_1">a</text>
+<path d="M177.1,67.3v41.8" class="g0_1" />
+<path d="M179.6,107.3c-.9,.2,-2.3,1.8,-2.5,2.3c-.1,-.5,-1.5,-2.1,-2.4,-2.3" class="g1_1" />
+<text x="182" y="94" class="s3_1">b</text>
+<path d="M217.8,151.3h41.9" class="g0_1" />
+<path d="M257.8,148.8c.2,1,1.9,2.3,2.3,2.5c-.4,.1,-2.1,1.5,-2.3,2.4" class="g1_1" />
+<text x="235" y="145" class="s3_1">b</text>
+<path d="M341.2,140.7c63.6,-17,63.6,38.2,2.1,21.7" class="g0_1" />
+<path d="M344.5,165.2c.1,-.9,-1.2,-2.6,-1.6,-2.9c.5,0,2.5,-.9,2.8,-1.8" class="g4_1" />
+<text x="394" y="156" class="s3_1">b</text>
+
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: CMMI10_7;
+	src: url("fonts/CMMI10_7.woff") format("woff");
+}
+
+@font-face {
+	font-family: CMR10_9;
+	src: url("fonts/CMR10_9.woff") format("woff");
+}
+
+@font-face {
+	font-family: CMR7_8;
+	src: url("fonts/CMR7_8.woff") format("woff");
+}
+
+@font-face {
+	font-family: CMSY10_a;
+	src: url("fonts/CMSY10_a.woff") format("woff");
+}
+
+]]></style>
+
+</svg>
