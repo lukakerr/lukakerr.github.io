@@ -145,6 +145,11 @@ blockquote {
     }
   }
 
+  .katex-display {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
   h1:after, h2:after {
     position: absolute;
     content: '';
