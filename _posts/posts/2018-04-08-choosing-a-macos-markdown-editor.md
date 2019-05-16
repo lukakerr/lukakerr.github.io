@@ -13,7 +13,7 @@ comments: true
 
 # Choosing A macOS Markdown Editor
 
-<small style="color: #777; top: -10px; position: relative">
+<small class="written-by">
   Written by <a href="https://github.com/lukakerr">Luka Kerr</a> on April 8, 2018
 </small>
 

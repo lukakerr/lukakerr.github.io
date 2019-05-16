@@ -15,7 +15,7 @@ comments: true
 
 # 'Reverse Engineering' Hacker News Into An API
 
-<small style="color: #777; top: -10px; position: relative">
+<small class="written-by">
   Written by <a href="https://github.com/lukakerr">Luka Kerr</a> on April 1, 2018
 </small>
 

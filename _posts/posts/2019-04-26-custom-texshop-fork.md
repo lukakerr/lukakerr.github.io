@@ -14,7 +14,7 @@ comments: true
 
 ## Custom TeXShop Fork
 
-<small style="color: #777; top: -10px; position: relative">
+<small class="written-by">
   Written by <a href="https://github.com/lukakerr">Luka Kerr</a> on April 26, 2019
 </small>
 

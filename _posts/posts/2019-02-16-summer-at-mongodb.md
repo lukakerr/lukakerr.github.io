@@ -14,7 +14,7 @@ comments: true
 
 # A Summer At MongoDB
 
-<small style="color: #777; top: -10px; position: relative">
+<small class="written-by">
   Written by <a href="https://github.com/lukakerr">Luka Kerr</a> on February 16, 2019
 </small>
 

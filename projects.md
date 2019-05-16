@@ -38,5 +38,5 @@ permalink: /projects
 
 <br>
 
-<small>... And more to come</small>
+<small>... and more to come</small>
 

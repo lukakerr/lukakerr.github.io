@@ -108,11 +108,7 @@ blockquote {
 
 // Page header
 .post-header {
-  margin-bottom: 15px;
-
-  .post-title {
-    font-size: 30px;
-  }
+  display: none;
 }
 
 // Post link
@@ -135,6 +131,12 @@ blockquote {
 
 // Markdown page content
 .page-content {
+  small.written-by {
+    display: block;
+    margin-bottom: 20px;
+    color: #777;
+  }
+
   .markdown-link {
     float: left;
     display: none;

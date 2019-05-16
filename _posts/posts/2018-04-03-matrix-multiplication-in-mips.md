@@ -13,7 +13,7 @@ comments: true
 
 # Matrix Multiplication In MIPS
 
-<small style="color: #777; top: -10px; position: relative">
+<small class="written-by">
   Written by <a href="https://github.com/lukakerr">Luka Kerr</a> on April 2, 2018
 </small>
 
