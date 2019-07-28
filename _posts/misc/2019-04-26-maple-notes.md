@@ -495,7 +495,7 @@ coordinates(F);
 distance(A, L2);
 ```
 
-### Q11) For Loops
+### For Loops
 
 Write a for loop for $\sum^{21}\_{n = 16} sin(\dfrac{k}{n})$ for k from 2 to 60
 
