@@ -16,6 +16,10 @@ permalink: /projects
 
 > A simple lexer, parser and evaluator for a C like language
 
+#### [mdtg](https://github.com/lukakerr/mdtg)
+
+> Quickly generate markdown tables in your terminal using a simple specification
+
 #### [plyr](https://github.com/lukakerr/plyr)
 
 > A hyperminimal macOS desktop music player
