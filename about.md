@@ -8,7 +8,6 @@ I'm Luka, a software engineering student at [UNSW](https://www.unsw.edu.au) Sydn
 
 I enjoy programming with:
 
-* Go
 * Rust
 * Swift
 * Haskell
@@ -21,5 +20,7 @@ I have experience working as a software engineering intern at:
 - [Creative Licence Digital](https://www.creativelicence.com.au)
 
 and am always open to new opportunities.
+
+I will be interning at [Canva](https://www.canva.com) this summer - if you are too, get in touch!
 
 I also take surf photos. For more of my surf photography work, visit [www.lukakerrphoto.com](https://www.lukakerrphoto.com).

@@ -24,8 +24,6 @@ The code for a [binary search tree](https://en.wikipedia.org/wiki/Binary_search_
 #include <stdio.h>
 #include <assert.h>
 #include <string.h>
-#include "BST.h"
-#include "PQ.h"
 
 /**
  * Handy macros for operating on a binary search tree
@@ -112,6 +110,7 @@ BST insertBST(BST tree, int key, int val) {
   } else if (key > key(tree)) {
     right(tree) = insertBST(right(tree), key, val);
   }
+  
   return tree;
 }
 

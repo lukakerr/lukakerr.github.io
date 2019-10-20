@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects
 ---
 
-#### [pine](https://github.com/lukakerr/pine)
+#### [pine](https://github.com/lukakerr/Pine)
 
 > A native markdown editor for macOS
 
@@ -23,6 +23,10 @@ permalink: /projects
 #### [plyr](https://github.com/lukakerr/plyr)
 
 > A hyperminimal macOS desktop music player
+
+#### [tikzi](https://github.com/lukakerr/TikZi)
+
+> A TikZ editor, viewer and exporter
 
 #### [openquickly](https://github.com/lukakerr/OpenQuickly)
 
