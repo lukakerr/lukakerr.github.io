@@ -9,20 +9,14 @@ layout: default
   {% assign photos = site.categories.photos %}
 
   {%- if photos.size > 0 -%}
-    <ul class="post-list">
+    <div class="photos-list">
       {%- for post in photos -%}
-      <li>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
+      <a href="{{ post.url | relative_url }}">
+        <img src="{{ post.cover | escape }}">
+        <h3>{{ post.title | escape }}</h3>
+      </a>
       {%- endfor -%}
-    </ul>
+    </div>
   {%- endif -%}
 
 </div>

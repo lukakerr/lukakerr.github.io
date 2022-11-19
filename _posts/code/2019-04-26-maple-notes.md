@@ -2,8 +2,8 @@
 layout: default
 title:  "Maple Notes"
 date:   2019-04-26 09:30:00 +1100
-permalink: misc/maple-notes
-category: misc
+permalink: code/maple-notes
+category: code
 hidden: true
 tags:
   - maple
@@ -174,7 +174,7 @@ a := <70, 197, 236>;
 // vector b
 b := <19, 128, 56>;
 
-u := Normalize(b, Euclidean); 
+u := Normalize(b, Euclidean);
 v := DotProduct(a, u) * u;
 ```
 
@@ -224,7 +224,7 @@ Norm(cp);
 
 ### Mapping Functions
 
-Function that takes in a list of complex numbers and returns the largest modulus from that list: 
+Function that takes in a list of complex numbers and returns the largest modulus from that list:
 
 ```c
 x -> max(map(abs, x))
@@ -283,11 +283,11 @@ implicitplot([f1, f2], x=-10..10, y=-10..10);
 
 ### Piecewise Functions
 
-To define a piece wise function 
+To define a piece wise function
 
 $$
 \begin{array}{cc}
-  \Bigg\{ & 
+  \Bigg\{ &
     \begin{array}{cc}
       x & x\lt 1 \\
       x^3 & x\lt 3 \\
@@ -302,7 +302,7 @@ piecewise(x < 1, x, x < 3, x^3, 3 - x);
 
 ### Matrices
 
-Given a matrix $A$, create a vector $b$ that is column 3 from $A$, and a matrix $C$ that is made from columns 1 to 2, and 4 to 11 of $A$. 
+Given a matrix $A$, create a vector $b$ that is column 3 from $A$, and a matrix $C$ that is made from columns 1 to 2, and 4 to 11 of $A$.
 
 Then solve $Cx = b$ and enter the 6th component of the unique vector solution for $x$.
 
@@ -383,7 +383,7 @@ uk . uj;
 
 If $A = (u_1 \| u_2 \| u_3 \| u_4)$ and $v = (17, 59, 75, -74)$ , then $A v$ is a linear combination of the form $\lambda_1 u_1 + \lambda_2 u_2 + \lambda_3 u_3 + \lambda_4 u_4$, where the lambda values are $\lambda_1 = 17$,  $\lambda_2 = 59$, $\lambda_3 = 75$, $\lambda_4 = -74$
 
-Suppose that $Av = (b_1 \ b_2 \ \dots \ b_5)^T$, to find the value of $b_2$ 
+Suppose that $Av = (b_1 \ b_2 \ \dots \ b_5)^T$, to find the value of $b_2$
 
 ```c
 // Find Av first
@@ -517,16 +517,16 @@ Another example:
 f := proc(m)
   local a, i;
   a[0] := 0;
-  
+
   for i to m do
     a[i] := evalf(sin((1+(1/4) * a[i-1])^2));
-  end do; 
-  
-  if abs(a[m] - a[m-1]) < 10^(-16) then 
-    a[m] 
-  else 
+  end do;
+
+  if abs(a[m] - a[m-1]) < 10^(-16) then
+    a[m]
+  else
     -1
-  end if 
+  end if
 end proc;
 
 f(80);
@@ -540,11 +540,11 @@ a := proc(n)
   a[1] := 5;
   a[2] := 2;
   a[3] := -1;
-  
+
   for i from 3 to n - 1 do
     a[i + 1] := a[i] - 4 * a[i - 1] + a[i - 1]
   end do;
-  
+
   return a[n]
 end proc;
 
