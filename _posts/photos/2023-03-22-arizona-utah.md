@@ -35,4 +35,7 @@ hidden: true
   <img src="/assets/img/photos/arizona-utah-2023/20.jpg">
   <img src="/assets/img/photos/arizona-utah-2023/21.jpg">
   <img src="/assets/img/photos/arizona-utah-2023/22.jpg">
+  <img src="/assets/img/photos/arizona-utah-2023/23.jpg">
+  <img src="/assets/img/photos/arizona-utah-2023/24.jpg">
+  <img src="/assets/img/photos/arizona-utah-2023/25.jpg">
 </div>
