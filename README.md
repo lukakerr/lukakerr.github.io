@@ -20,6 +20,6 @@ convert '*.jpg' -set filename:fn '%[basename]-small' -geometry 700x '%[filename:
 To create a cover.jpg:
 
 ```
-# Crop to 393px tall and wide
+# Crop to 393px tall and wide - change depending on short size of cover image
 convert ./cover.jpg -gravity center -crop 393x393+0+0 cropped.jpg
 ```
