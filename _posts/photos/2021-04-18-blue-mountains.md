@@ -16,4 +16,5 @@ hidden: true
   <img src="/assets/img/photos/blue-mountains/1.jpg">
   <img src="/assets/img/photos/blue-mountains/2.jpg">
   <img src="/assets/img/photos/blue-mountains/3.jpg">
+  <img src="/assets/img/photos/blue-mountains/4.jpg">
 </div>
