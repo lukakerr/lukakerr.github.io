@@ -257,10 +257,6 @@ p > pre, code {
   width: calc(100vw - 40px);
   max-width: 1200px;
   line-height: 0;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 5px;
-  -moz-column-count: 2;
-  -moz-column-gap: 5px;
   column-count: 2;
   column-gap: 8px;
 }
@@ -273,8 +269,43 @@ p > pre, code {
 
 @media (max-width: 600px) {
   .photo-gallery {
-    -moz-column-count: 1;
-    -webkit-column-count: 1;
     column-count: 1;
   }
+}
+
+// Columns laid out by assets/js/gallery.js
+.photo-gallery.masonry {
+  display: flex;
+  gap: 8px;
+}
+
+.photo-column {
+  flex: 1;
+  min-width: 0;
+}
+
+// Loading indicator shown until gallery.js has laid out the images. Columns are
+// disabled so the indicator isn't split across them
+.js .photo-gallery:not(.ready) {
+  column-count: auto;
+}
+
+.js .photo-gallery:not(.ready) img {
+  display: none;
+}
+
+.js .photo-gallery:not(.ready)::before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 40px auto;
+  border: 3px solid #ddd;
+  border-top-color: #555;
+  border-radius: 50%;
+  animation: photo-gallery-spin 0.8s linear infinite;
+}
+
+@keyframes photo-gallery-spin {
+  to { transform: rotate(360deg); }
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 <head>
+  <script>document.documentElement.classList.add("js");</script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.2/katex.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.2/katex.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.2/contrib/auto-render.min.js"></script>
@@ -19,8 +20,8 @@
 
   {%- include footer.html -%}
 </body>
+<script src="../assets/js/gallery.js"></script>
 <script src="../assets/js/anchor.js"></script>
-<script src="../assets/js/slider.js"></script>
 <script>
   renderMathInElement(document.body, {delimiters: [
     {left: "$$", right: "$$", display: true},
